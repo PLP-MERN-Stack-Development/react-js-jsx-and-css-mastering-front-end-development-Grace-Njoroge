@@ -1,70 +1,83 @@
-# React.js and Tailwind CSS Assignment
+## 🗂️ PLP Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A simple and responsive **Task Manager** built with **React.js** and **Tailwind CSS**.  
+This application allows users to manage tasks efficiently, view API data, and switch between light and dark themes.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 **Features**
 
-## Getting Started
+- 📝 Add, delete, and filter tasks  
+- 💾 Persistent storage using `localStorage`  
+- 🌐 Fetch and display data from a public API (JSONPlaceholder)  
+- 🔍 Search functionality for filtering API results  
+- ♾️ Pagination for API data  
+- 🌙 Light/Dark mode using React Context and Tailwind CSS  
+- 📱 Fully responsive on mobile, tablet, and desktop  
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+## 🏗️ **Project Structure**
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── api/ # API integration (fetch from JSONPlaceholder)
+├── components/ # Reusable UI components (Navbar, Footer, Card, etc.)
+├── context/ # Theme context (light/dark mode)
+├── hooks/ # Custom hooks (useLocalStorage)
+├── pages/ # Pages (Home, Tasks, API Data)
+|
+└── App.jsx # Main application component
 
-## Submission
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+---
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## ⚙️ **Setup Instructions**
 
-## Resources
+Follow these steps to run the project locally 👇
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repo-url>
+
+
+
+🧩 Technologies Used
+
+⚛️ React.js (with Vite)
+
+💨 Tailwind CSS
+
+🪝 React Hooks (useState, useEffect, useContext)
+
+📦 Custom Hook: useLocalStorage
+
+🌐 JSONPlaceholder API (https://jsonplaceholder.typicode.com
+)
+
+🌓 Context API for theme management
+
+
+🌍 Deployment
+
+The app is deployed on GitHub Pages:
+
+🔗 Live Demo: [Your GitHub Pages Link Here]
+
+🖼️ Screenshots
+🏠 Home Page
+![Home  screenshot](./screenshots/home.png)
+
+
+✅ Tasks Page
+[Tasks Page](./screenshots/tasks.png)
+
+
+🌐 API Data Page
+[ApiData Page](./screenshot/api.png)
+
+
+
+📜 License
+
+This project is for learning purposes under the PLP course.
+All rights reserved © 2025 PLP Task Manager.
