@@ -21,9 +21,13 @@ This application allows users to manage tasks efficiently, view API data, and sw
 
 src/
 ├── api/ # API integration (fetch from JSONPlaceholder)
+
 ├── components/ # Reusable UI components (Navbar, Footer, Card, etc.)
+
 ├── context/ # Theme context (light/dark mode)
+
 ├── hooks/ # Custom hooks (useLocalStorage)
+
 ├── pages/ # Pages (Home, Tasks, API Data)
 |
 └── App.jsx # Main application component
