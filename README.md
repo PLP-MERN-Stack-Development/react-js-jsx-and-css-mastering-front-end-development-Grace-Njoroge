@@ -20,7 +20,6 @@ This application allows users to manage tasks efficiently, view API data, and sw
 ## 🏗️ **Project Structure**
 
 src/
-├── api/ # API integration (fetch from JSONPlaceholder)
 
 ├── components/ # Reusable UI components (Navbar, Footer, Card, etc.)
 
@@ -29,6 +28,7 @@ src/
 ├── hooks/ # Custom hooks (useLocalStorage)
 
 ├── pages/ # Pages (Home, Tasks, API Data)
+
 |
 └── App.jsx # Main application component
 
@@ -41,7 +41,7 @@ Follow these steps to run the project locally 👇
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Grace-Njoroge
 
 
 
@@ -63,9 +63,9 @@ git clone <your-repo-url>
 
 🌍 Deployment
 
-The app is deployed on GitHub Pages:
+The app is deployed on Netlify:
 
-🔗 Live Demo: [Your GitHub Pages Link Here]
+🔗 Live Demo: [https://task-management-app-grace.netlify.app/]
 
 🖼️ Screenshots
 🏠 Home Page
